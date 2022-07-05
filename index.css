@@ -85,6 +85,7 @@ nav .profile-link a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*Fin estilos head*/
 .home-main section{
     display: grid;
     grid-column: 2;
