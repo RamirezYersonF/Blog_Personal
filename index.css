@@ -75,3 +75,26 @@ nav .profile-link a:hover{
     text-decoration-line: underline;
     color: #1607A2;
 }
+.home-main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url('/img/fondo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-main section{
+    display: grid;
+    grid-column: 2;
+    justify-content: center;
+    height: 350px;
+    margin-top: 80px;
+}
+.home-main-text{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+}
