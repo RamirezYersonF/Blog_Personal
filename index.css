@@ -2,6 +2,9 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.home-body{
     position: fixed;
     left: 0;
     right: 0;
@@ -86,6 +89,7 @@ nav .profile-link a:hover{
     background-size: cover;
 }
 /*Fin estilos head*/
+/*Inicio Main - Header*/
 .home-main section{
     display: grid;
     grid-column: 2;
@@ -125,3 +129,43 @@ nav .profile-link a:hover{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
 }
+/*Fin Main - Header*/
+/*Inicio main - Blogs*/
+.blogs-main{
+    display: grid;
+}
+.blogs-news-container{
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
+}
+.blogs-main-news{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+.blogs-news-img-container{
+    grid-column: 1;
+    align-self: center;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.blogs-news-img-container img{
+    width: 80%;
+    border-radius: 350px;
+}
+.blogs-news-info-container{
+    grid-column: 2;
+}
+.blogs-news-info-container p{
+        margin-bottom: 35px;
+}
+.blogs-posts-container{
+    padding: 0 50px 40px;
+}
+.blogs-posts-container h3{
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+    text-align: center;
+}
+/*Fin main - Blogs*/
