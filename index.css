@@ -23,7 +23,7 @@ header .header-icons-container{
     width: 100%;
     height: 50px;
     display: grid;
-    background-image: linear-gradient(to right bottom, #051937, #004871, #007d9e, #00b4b4, #12ebb2);
+    background-color: #30259d;
 }
 header .header-icons-container .icons{
     width: 200px;
@@ -48,4 +48,30 @@ header .header-icons-container .icons{
     background-color: #ffff;
     border-radius: 100px;
     padding: 11px;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+nav .profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .nav-logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+nav .profile-link a{
+    color: #30259d;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav .profile-link a:hover{
+    text-decoration-line: underline;
+    color: #1607A2;
 }
