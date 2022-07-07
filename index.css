@@ -162,7 +162,8 @@ nav .profile-link a:hover{
     grid-column: 2;
 }
 .blogs-news-info-container p{
-        margin-bottom: 35px;
+    margin-bottom: 30px;
+    text-align: justify;
 }
 .blogs-posts-container{
     padding: 0 50px;
